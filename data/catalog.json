@@ -1,0 +1,804 @@
+{
+  "categories": [
+    {
+      "id": "raquetes",
+      "slug": "raquetes",
+      "label": "Raquetes",
+      "image": "/sample/categories/raquetes.jpg"
+    },
+    {
+      "id": "calcados",
+      "slug": "calcados",
+      "label": "Calçados",
+      "image": "/sample/products/shoe-barricade.jpg"
+    },
+    {
+      "id": "vestuario",
+      "slug": "vestuario",
+      "label": "Vestuário",
+      "image": "/sample/categories/feminino.jpg"
+    },
+    {
+      "id": "bolas",
+      "slug": "bolas",
+      "label": "Bolas",
+      "image": "/sample/categories/bolas.jpg"
+    },
+    {
+      "id": "bones-e-viseiras",
+      "slug": "bones-e-viseiras",
+      "label": "Bonés e viseiras",
+      "image": "/sample/products/visor-dri-fit.jpg"
+    },
+    {
+      "id": "bolsas",
+      "slug": "bolsas",
+      "label": "Bolsas",
+      "image": "/sample/products/bag-wilson-tour.jpg"
+    },
+    {
+      "id": "cordas-e-grips",
+      "slug": "cordas-e-grips",
+      "label": "Cordas e grips",
+      "image": "/sample/products/string-macro.jpg"
+    },
+    {
+      "id": "acessorios",
+      "slug": "acessorios",
+      "label": "Acessórios",
+      "image": "/sample/products/headband-climacool.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": "wilson-burn-100",
+      "slug": "wilson-burn-100",
+      "name": "Raquete Wilson Burn 100 V5.0",
+      "brand": "Wilson",
+      "categoryId": "raquetes",
+      "price": 1599.9,
+      "images": [
+        "/sample/products/racket-burn-100.jpg",
+        "/sample/products/racket-burn-100-2.jpg",
+        "/sample/products/racket-burn-100-3.jpg",
+        "/sample/products/racket-burn-100-4.jpg"
+      ],
+      "description": "Cabeça de 100 pol², 300 g sem corda e padrão 16×19. Potência e profundidade para quem joga do fundo de quadra.",
+      "options": [
+        {
+          "label": "Grip",
+          "values": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "badge": {
+        "label": "Novo"
+      },
+      "isNew": true,
+      "sku": "578690349"
+    },
+    {
+      "id": "babolat-pure-drive-lite",
+      "slug": "babolat-pure-drive-lite",
+      "name": "Raquete Babolat Pure Drive Lite Gen11",
+      "brand": "Babolat",
+      "categoryId": "raquetes",
+      "price": 1449.9,
+      "images": [
+        "/sample/products/racket-pure-drive-lite.jpg"
+      ],
+      "description": "Versão leve, com 270 g, para acelerar a raquetada sem perder a potência da linha Pure Drive.",
+      "options": [
+        {
+          "label": "Grip",
+          "values": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "badge": {
+        "label": "Novo"
+      },
+      "isNew": true
+    },
+    {
+      "id": "head-speed-mp",
+      "slug": "head-speed-mp",
+      "name": "Raquete Head Speed MP 2024",
+      "brand": "Head",
+      "categoryId": "raquetes",
+      "price": 1699.9,
+      "images": [
+        "/sample/products/racket-head-speed.jpg"
+      ],
+      "description": "Equilíbrio entre controle e velocidade, 300 g e padrão 16×19 para jogadores intermediários e avançados.",
+      "options": [
+        {
+          "label": "Grip",
+          "values": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "babolat-evo-drive",
+      "slug": "babolat-evo-drive",
+      "name": "Raquete Babolat Evo Drive 2025",
+      "brand": "Babolat",
+      "categoryId": "raquetes",
+      "price": 999.9,
+      "images": [
+        "/sample/products/racket-evo-drive.jpg"
+      ],
+      "description": "Conforto e saída de bola fácil, com 270 g. Boa para quem está evoluindo o jogo.",
+      "options": [
+        {
+          "label": "Grip",
+          "values": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "babolat-boost-drive",
+      "slug": "babolat-boost-drive",
+      "name": "Raquete Babolat Boost Drive White",
+      "brand": "Babolat",
+      "categoryId": "raquetes",
+      "price": 699.9,
+      "images": [
+        "/sample/products/racket-boost-drive.jpg"
+      ],
+      "description": "Raquete de entrada, já encordoada, 260 g e cabeça grande para ganhar confiança nos primeiros jogos.",
+      "options": [
+        {
+          "label": "Grip",
+          "values": [
+            "L1",
+            "L2",
+            "L3",
+            "L4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nike-court-lite-4",
+      "slug": "nike-court-lite-4",
+      "name": "Tênis Nike Court Lite 4",
+      "brand": "Nike",
+      "categoryId": "calcados",
+      "price": 599.9,
+      "images": [
+        "/sample/products/shoe-court-lite-4.jpg"
+      ],
+      "description": "Solado durável para quadra rápida e entressola com bom amortecimento para treinos frequentes.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "isNew": true
+    },
+    {
+      "id": "adidas-barricade-13",
+      "slug": "adidas-barricade-13",
+      "name": "Tênis Adidas Barricade 13",
+      "brand": "Adidas",
+      "categoryId": "calcados",
+      "price": 999.9,
+      "images": [
+        "/sample/products/shoe-barricade.jpg"
+      ],
+      "description": "Estabilidade lateral para quem joga no fundo e exige o calçado nas mudanças de direção.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ],
+      "oldPrice": 1199.9,
+      "badge": {
+        "label": "-17%",
+        "tone": "sale"
+      }
+    },
+    {
+      "id": "nike-vapor-12",
+      "slug": "nike-vapor-12",
+      "name": "Tênis Nike Vapor 12",
+      "brand": "Nike",
+      "categoryId": "calcados",
+      "price": 1199.9,
+      "images": [
+        "/sample/products/shoe-vapor-12.jpg"
+      ],
+      "description": "Leve e responsivo, feito para jogadores rápidos, com ótima tração em quadra dura.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wilson-pro-staff-87",
+      "slug": "wilson-pro-staff-87",
+      "name": "Tênis Wilson Pro Staff 87",
+      "brand": "Wilson",
+      "categoryId": "calcados",
+      "price": 699.9,
+      "images": [
+        "/sample/products/shoe-pro-staff.jpg"
+      ],
+      "description": "Cabedal em couro sintético e solado de borracha resistente. Clássico para treinos diários.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nike-gp-challenge-pro",
+      "slug": "nike-gp-challenge-pro",
+      "name": "Tênis Nike GP Challenge Pro",
+      "brand": "Nike",
+      "categoryId": "calcados",
+      "price": 1099.9,
+      "images": [
+        "/sample/products/shoe-gp-challenge.jpg"
+      ],
+      "description": "Amortecimento no antepé e suporte para trocas rápidas de direção em quadra dura.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nike-court-lite-azul",
+      "slug": "nike-court-lite-azul",
+      "name": "Tênis Nike Court Lite 4 Azul",
+      "brand": "Nike",
+      "categoryId": "calcados",
+      "price": 649.9,
+      "images": [
+        "/sample/products/shoe-court-lite-blue.jpg"
+      ],
+      "description": "Mesma construção do Court Lite 4, em colorido azul, para treino e jogo recreativo.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adidas-defiant-speed",
+      "slug": "adidas-defiant-speed",
+      "name": "Tênis Adidas Defiant Speed",
+      "brand": "Adidas",
+      "categoryId": "calcados",
+      "price": 799.9,
+      "images": [
+        "/sample/products/shoe-adidas.jpg"
+      ],
+      "description": "Equilíbrio entre leveza e durabilidade, com cabedal respirável para dias quentes.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nike-af1-rosa",
+      "slug": "nike-af1-rosa",
+      "name": "Tênis Nike Air Force 1 '07 Rosa",
+      "brand": "Nike",
+      "categoryId": "calcados",
+      "price": 799.9,
+      "images": [
+        "/sample/products/shoe-af1-pink.jpg"
+      ],
+      "description": "Para sair da quadra com estilo. Modelo casual, não indicado para jogo.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebola-conjunto-court",
+      "slug": "cebola-conjunto-court",
+      "name": "Conjunto de Treino Court Branco",
+      "brand": "Cebola Selection",
+      "categoryId": "vestuario",
+      "price": 749.9,
+      "images": [
+        "/sample/products/set-training-white.jpg"
+      ],
+      "description": "Tecido leve de secagem rápida, com modelagem pensada para liberdade no saque.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ],
+      "featured": true,
+      "isNew": true
+    },
+    {
+      "id": "nike-camiseta-advantage",
+      "slug": "nike-camiseta-advantage",
+      "name": "Camiseta Nike Court Advantage Dri-FIT",
+      "brand": "Nike",
+      "categoryId": "vestuario",
+      "price": 299.9,
+      "images": [
+        "/sample/products/tee-court-advantage.jpg"
+      ],
+      "description": "Malha Dri-FIT que afasta o suor e mantém o conforto durante o jogo.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ],
+      "featured": true
+    },
+    {
+      "id": "nike-jaqueta-tech",
+      "slug": "nike-jaqueta-tech",
+      "name": "Jaqueta Nike Tech Fleece",
+      "brand": "Nike",
+      "categoryId": "vestuario",
+      "price": 899.9,
+      "images": [
+        "/sample/products/jacket-tech.jpg"
+      ],
+      "description": "Aquecimento e deslocamento até a quadra com tecido leve e bolsos com zíper.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cebola-legging-studio",
+      "slug": "cebola-legging-studio",
+      "name": "Legging Studio 7/8",
+      "brand": "Cebola Selection",
+      "categoryId": "vestuario",
+      "price": 279.9,
+      "images": [
+        "/sample/products/leggings-studio.jpg"
+      ],
+      "description": "Compressão leve e cós alto, ideal para treino físico e aquecimento.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "jordan-moletom-flight",
+      "slug": "jordan-moletom-flight",
+      "name": "Moletom Jordan Flight Fleece",
+      "brand": "Jordan",
+      "categoryId": "vestuario",
+      "price": 549.9,
+      "images": [
+        "/sample/products/longsleeve-fleece.jpg"
+      ],
+      "description": "Moletom macio para o pré e o pós-jogo.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nike-top-baseline",
+      "slug": "nike-top-baseline",
+      "name": "Top Nike Baseline com Zíper",
+      "brand": "Nike",
+      "categoryId": "vestuario",
+      "price": 399.9,
+      "images": [
+        "/sample/products/top-baseline-zip.jpg"
+      ],
+      "description": "Manga longa com meio zíper para treinos em dias mais frios.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adidas-vestido-climacool",
+      "slug": "adidas-vestido-climacool",
+      "name": "Vestido de Tênis Climacool",
+      "brand": "Adidas",
+      "categoryId": "vestuario",
+      "price": 549.9,
+      "images": [
+        "/sample/products/dress-climacool.jpg"
+      ],
+      "description": "Tecido Climacool, com shorts interno e caimento solto para movimentos amplos.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ],
+      "badge": {
+        "label": "Novo"
+      },
+      "isNew": true
+    },
+    {
+      "id": "nike-saia-reta",
+      "slug": "nike-saia-reta",
+      "name": "Saia Feminina Dri-FIT Reta",
+      "brand": "Nike",
+      "categoryId": "vestuario",
+      "price": 349.9,
+      "images": [
+        "/sample/products/skirt-dri-fit-pink.jpg"
+      ],
+      "description": "Saia com shorts interno e bolso para bola.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ],
+      "oldPrice": 449.9,
+      "badge": {
+        "label": "-22%",
+        "tone": "sale"
+      }
+    },
+    {
+      "id": "nike-vestido-preto",
+      "slug": "nike-vestido-preto",
+      "name": "Vestido Nike Dri-FIT Preto",
+      "brand": "Nike",
+      "categoryId": "vestuario",
+      "price": 499.9,
+      "images": [
+        "/sample/products/dress-black.jpg"
+      ],
+      "description": "Vestido ajustado com tecido respirável e recortes para ventilação.",
+      "options": [
+        {
+          "label": "Tamanho",
+          "values": [
+            "P",
+            "M",
+            "G",
+            "GG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "head-reset-tubo",
+      "slug": "head-reset-tubo",
+      "name": "Bola Head Reset — tubo com 4",
+      "brand": "Head",
+      "categoryId": "bolas",
+      "price": 89.9,
+      "images": [
+        "/sample/products/balls-head-reset.jpg"
+      ],
+      "description": "Bola de transição com menor pressão, indicada para iniciantes e crianças em evolução.",
+      "options": []
+    },
+    {
+      "id": "wilson-us-open-tubo",
+      "slug": "wilson-us-open-tubo",
+      "name": "Bola Wilson US Open — tubo com 3",
+      "brand": "Wilson",
+      "categoryId": "bolas",
+      "price": 69.9,
+      "images": [
+        "/sample/categories/bolas.jpg"
+      ],
+      "description": "Bola oficial para jogo em quadra dura, com feltro resistente.",
+      "options": [],
+      "badge": {
+        "label": "Novo"
+      },
+      "isNew": true
+    },
+    {
+      "id": "wilson-treino-caixa",
+      "slug": "wilson-treino-caixa",
+      "name": "Bola Wilson Treino — caixa com 24",
+      "brand": "Wilson",
+      "categoryId": "bolas",
+      "price": 399.9,
+      "images": [
+        "/sample/categories/bolas.jpg"
+      ],
+      "description": "Caixa para treinos e clínicas, boa durabilidade em sessões longas.",
+      "options": [],
+      "oldPrice": 459.9,
+      "badge": {
+        "label": "-13%",
+        "tone": "sale"
+      }
+    },
+    {
+      "id": "cebola-bone-xadrez",
+      "slug": "cebola-bone-xadrez",
+      "name": "Boné Cebola Selection Xadrez",
+      "brand": "Cebola Selection",
+      "categoryId": "bones-e-viseiras",
+      "price": 159.9,
+      "images": [
+        "/sample/products/cap-plaid.jpg"
+      ],
+      "description": "Aba curva e ajuste traseiro, com tecido leve para jogar sob o sol.",
+      "options": [],
+      "isNew": true
+    },
+    {
+      "id": "cebola-bone-marinho",
+      "slug": "cebola-bone-marinho",
+      "name": "Boné Cebola Selection Aba Marinho",
+      "brand": "Cebola Selection",
+      "categoryId": "bones-e-viseiras",
+      "price": 159.9,
+      "images": [
+        "/sample/products/cap-polo.jpg"
+      ],
+      "description": "Aba azul-marinho, painéis em xadrez e ajuste traseiro.",
+      "options": []
+    },
+    {
+      "id": "nike-viseira-ace",
+      "slug": "nike-viseira-ace",
+      "name": "Viseira Nike Dri-FIT ADV Ace",
+      "brand": "Nike",
+      "categoryId": "bones-e-viseiras",
+      "price": 179.9,
+      "images": [
+        "/sample/products/visor-dri-fit.jpg"
+      ],
+      "description": "Testeira que absorve o suor, sem aquecer a cabeça.",
+      "options": []
+    },
+    {
+      "id": "wilson-raqueteira-tour",
+      "slug": "wilson-raqueteira-tour",
+      "name": "Raqueteira Wilson Super Tour Roland-Garros",
+      "brand": "Wilson",
+      "categoryId": "bolsas",
+      "price": 1299.9,
+      "images": [
+        "/sample/products/bag-wilson-tour.jpg"
+      ],
+      "description": "Compartimentos para até 9 raquetes, com proteção térmica e bolso para calçados.",
+      "options": [],
+      "isNew": true
+    },
+    {
+      "id": "adidas-bolsa-court",
+      "slug": "adidas-bolsa-court",
+      "name": "Bolsa Adidas Court",
+      "brand": "Adidas",
+      "categoryId": "bolsas",
+      "price": 449.9,
+      "images": [
+        "/sample/products/bag-adidas.jpg"
+      ],
+      "description": "Bolsa compacta para levar raquete, roupa e acessórios ao treino.",
+      "options": []
+    },
+    {
+      "id": "nike-bolsa-gym-club",
+      "slug": "nike-bolsa-gym-club",
+      "name": "Bolsa Nike Gym Club",
+      "brand": "Nike",
+      "categoryId": "bolsas",
+      "price": 349.9,
+      "images": [
+        "/sample/products/bag-gym-club.jpg"
+      ],
+      "description": "Bolsa leve com alça de ombro, para o dia a dia da quadra.",
+      "options": []
+    },
+    {
+      "id": "luxilon-alu-power",
+      "slug": "luxilon-alu-power",
+      "name": "Corda Luxilon Alu Power 16L — set",
+      "brand": "Luxilon",
+      "categoryId": "cordas-e-grips",
+      "price": 149.9,
+      "images": [
+        "/sample/products/string-macro.jpg"
+      ],
+      "description": "Monofilamento de poliéster 1,25 mm. Controle e durabilidade para quem bate forte.",
+      "options": []
+    },
+    {
+      "id": "babolat-rpm-blast",
+      "slug": "babolat-rpm-blast",
+      "name": "Corda Babolat RPM Blast 17 — set",
+      "brand": "Babolat",
+      "categoryId": "cordas-e-grips",
+      "price": 129.9,
+      "images": [
+        "/sample/products/string-macro.jpg"
+      ],
+      "description": "Poliéster octogonal 1,25 mm que favorece o efeito topspin.",
+      "options": []
+    },
+    {
+      "id": "wilson-pro-overgrip",
+      "slug": "wilson-pro-overgrip",
+      "name": "Overgrip Wilson Pro — pacote com 3",
+      "brand": "Wilson",
+      "categoryId": "cordas-e-grips",
+      "price": 59.9,
+      "images": [
+        "/sample/products/racket-burn-100-3.jpg"
+      ],
+      "description": "Overgrip fino e absorvente, para manter a raquete firme na mão.",
+      "options": []
+    },
+    {
+      "id": "adidas-faixa-climacool",
+      "slug": "adidas-faixa-climacool",
+      "name": "Faixa de Cabeça Climacool",
+      "brand": "Adidas",
+      "categoryId": "acessorios",
+      "price": 89.9,
+      "images": [
+        "/sample/products/headband-climacool.jpg"
+      ],
+      "description": "Faixa com amarração traseira que mantém o suor longe dos olhos.",
+      "options": []
+    }
+  ]
+}

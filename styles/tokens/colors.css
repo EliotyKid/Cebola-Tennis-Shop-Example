@@ -1,0 +1,81 @@
+:root{
+/* ── Neutrals (reference palette: FAFAFA E5E6E8 D5D6D8 B5B8BC 8A9099 2A2F37) ── */
+--neutral-0:#FFFFFF;
+--neutral-25:#FCFDFF;
+--neutral-50:#FAFAFA;
+--neutral-75:#F3F3F3;
+--neutral-100:#E5E6E8;
+--neutral-200:#D5D6D8;
+--neutral-300:#B5B8BC;
+--neutral-500:#8A9099;
+--neutral-700:#494C53;
+--neutral-900:#2A2F37;
+--neutral-950:#16181D;
+--black:#000000;
+/* cool tints used behind product shots and on info cards */
+--mist-50:#F3F7FA;
+--mist-100:#F0F1F5;
+
+/* ── Brand: Cebola (from logo) ── */
+--cebola-gold-300:#FBE07A;
+--cebola-gold-500:#F8C819;
+--cebola-gold-600:#E8B000;
+--cebola-ink:#16181D;
+
+/* ── Tennis accents (from reference UI) ── */
+--lime-100:#EEFAC3;
+--lime-200:#DDF587;
+--lime-500:#B9E80F;
+--lime-600:#A5D00B;
+--court-green-500:#2E7A43;
+--court-green-700:#1B592D;
+--court-green-900:#113A1D;
+--court-blue-500:#2F7FBF;
+--court-blue-600:#1E6EA9;
+--court-blue-800:#14548A;
+--navy-900:#1B274B;
+--red-500:#E0262B;
+--orange-500:#F08A24;
+
+/* ── Semantic aliases ── */
+--bg-page:var(--neutral-25);
+--bg-subtle:var(--neutral-50);
+--surface-card:var(--mist-50);
+--surface-media:var(--mist-100);
+--surface-control:var(--neutral-75);
+--surface-raised:var(--neutral-0);
+--surface-inverse:var(--neutral-900);
+--surface-brand:var(--court-green-700);
+--surface-accent-soft:var(--lime-200);
+
+--text-primary:var(--neutral-900);
+--text-secondary:var(--neutral-500);
+--text-tertiary:var(--neutral-300);
+--text-inverse:var(--neutral-0);
+--text-on-accent:var(--neutral-900);
+--text-brand:var(--court-green-700);
+--text-link:var(--neutral-900);
+
+--border-subtle:var(--neutral-100);
+--border-default:var(--neutral-200);
+--border-strong:var(--neutral-900);
+
+--accent:var(--lime-500);
+--accent-hover:var(--lime-600);
+--accent-soft:var(--lime-200);
+--action-dark:var(--neutral-900);
+--action-dark-hover:var(--neutral-700);
+--icon-button:var(--navy-900);
+--brand-gold:var(--cebola-gold-500);
+--rating:var(--cebola-gold-500);
+--favorite:var(--red-500);
+--sale:var(--red-500);
+--success:var(--court-green-500);
+--focus-ring:var(--court-blue-500);
+
+/* glass capsules over photography */
+--glass-bg:rgba(42,47,55,.26);
+--glass-bg-strong:rgba(255,255,255,.82);
+--glass-border:rgba(255,255,255,.45);
+--scrim-bottom:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.45) 100%); /* @kind other */
+}

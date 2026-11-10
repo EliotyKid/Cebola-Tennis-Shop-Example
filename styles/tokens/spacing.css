@@ -1,0 +1,47 @@
+:root{
+/* 4px base */
+--space-0:0;
+--space-1:2px;
+--space-2:4px;
+--space-3:8px;
+--space-4:12px;
+--space-5:16px;
+--space-6:20px;
+--space-7:24px;
+--space-8:32px;
+--space-9:40px;
+--space-10:48px;
+--space-11:64px;
+--space-12:80px;
+--space-13:120px;
+
+/* layout */
+--container-max:1440px; /* @kind spacing */
+--gutter:40px;
+--gutter-mobile:16px;
+--grid-gap:20px;
+--grid-gap-mobile:10px;
+--section-gap:120px;
+--section-gap-mobile:64px;
+--header-h:56px; /* @kind spacing */
+
+/* radii */
+--radius-xs:4px;
+--radius-sm:8px;
+--radius-md:12px;
+--radius-lg:16px;
+--radius-xl:24px;
+--radius-2xl:32px;
+--radius-pill:999px;
+
+/* control heights */
+--control-sm:36px; /* @kind spacing */
+--control-md:44px; /* @kind spacing */
+--control-lg:52px; /* @kind spacing */
+
+/* breakpoints (reference only — use in media queries) */
+--bp-sm:390px; /* @kind spacing */
+--bp-md:768px; /* @kind spacing */
+--bp-lg:1024px; /* @kind spacing */
+--bp-xl:1440px; /* @kind spacing */
+}

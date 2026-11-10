@@ -1,0 +1,21 @@
+:root{
+/* Flat system: surfaces separate by tint, not shadow. Shadows only for floating layers. */
+--shadow-none:none;
+--shadow-float:0 12px 32px -8px rgba(27,39,75,.18);
+--shadow-pop:0 24px 60px -16px rgba(22,24,29,.28);
+--shadow-inset-line:inset 0 0 0 1px var(--border-subtle);
+--blur-glass:blur(14px) saturate(140%); /* @kind other */
+
+/* motion */
+--ease-out:cubic-bezier(.22,1,.36,1); /* @kind other */
+--ease-in-out:cubic-bezier(.65,0,.35,1); /* @kind other */
+--ease-spring:cubic-bezier(.34,1.56,.64,1); /* @kind other */
+--dur-instant:100ms; /* @kind other */
+--dur-fast:160ms; /* @kind other */
+--dur-base:260ms; /* @kind other */
+--dur-slow:480ms; /* @kind other */
+--dur-reveal:760ms; /* @kind other */
+--press-scale:.96; /* @kind other */
+--hover-lift:-2px; /* @kind other */
+--image-zoom:1.05; /* @kind other */
+}

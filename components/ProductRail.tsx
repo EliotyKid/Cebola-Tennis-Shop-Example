@@ -18,7 +18,7 @@ export function ProductRail({ title, products }: { title: string; products: Prod
     <>
       <div className="wrap"><SectionHeader className="sec-head" title={title} aside={<CarouselNav onPrev={() => by(-1)} onNext={() => by(1)} prevDisabled={edge.start} nextDisabled={edge.end} />} /></div>
       <div ref={ref} onScroll={onScroll} className="kit-rail rail">
-        {products.map(p => <div key={p.id} className={`rail__item${p.featured ? ' rail__item--feature' : ''}`}><ProductTile product={p} /></div>)}
+        {products.map(p => <div key={p.id} className="rail__item"><ProductTile product={p} /></div>)}
       </div>
     </>
   );

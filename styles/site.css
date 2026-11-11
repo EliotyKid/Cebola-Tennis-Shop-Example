@@ -27,7 +27,6 @@ html{scroll-behavior:smooth}
 .cb-pcard__media{isolation:auto}
 .cb-pcard__name a{color:inherit}
 .cb-pcard__name a::after{content:"";position:absolute;inset:0;z-index:1}
-.pcard-tall .cb-pcard__media{--_ar:3/4}
 
 .mmenu{position:fixed;inset:0;z-index:80;overflow:hidden;pointer-events:none}
 .mmenu--open{pointer-events:auto}
@@ -53,8 +52,6 @@ html{scroll-behavior:smooth}
 
 .rail{display:flex;gap:var(--grid-gap);overflow-x:auto;scroll-snap-type:x mandatory;padding:0 var(--gutter);scroll-padding-left:40px;align-items:flex-start}
 .rail__item{flex:none;width:clamp(200px,16vw,250px);scroll-snap-align:start}
-.rail__item--feature{width:clamp(260px,22vw,340px)}
-.rail__item--feature .cb-pcard__media{--_ar:3/4}
 
 .cats{display:grid;gap:var(--grid-gap);grid-template-columns:1.45fr 1fr 1fr;grid-template-rows:250px 330px}
 .cats>:nth-child(1){grid-row:span 2}
@@ -62,7 +59,7 @@ html{scroll-behavior:smooth}
 .feat-row{display:flex;gap:16px;height:270px}
 .feat-row>.cb-feat{flex:1;min-height:0;transition:flex var(--dur-slow) var(--ease-out),background-color var(--dur-base)}
 .feat-row>.cb-feat--open{flex:2.4}
-.recs{display:grid;grid-template-columns:1fr 1.35fr 1fr 1fr;gap:var(--grid-gap);align-items:start}
+.recs{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--grid-gap);align-items:start}
 
 .consult{display:grid;grid-template-columns:1fr 1fr;gap:var(--grid-gap)}
 .consult__title{margin:0;font:var(--type-h2);letter-spacing:var(--ls-heading)}
@@ -184,12 +181,12 @@ html{scroll-behavior:smooth}
   .hero h1{font-size:56px}
   .hero p{margin:16px 0 24px}
   .rail{gap:10px;padding:0 var(--gutter-mobile);scroll-padding-left:16px}
-  .rail__item,.rail__item--feature{width:160px}
-  .rail__item--feature .cb-pcard__media,.pcard-tall .cb-pcard__media{--_ar:4/5}
+  .rail__item{width:160px}
   .cats{gap:10px;grid-template-columns:1fr 1fr;grid-template-rows:230px 150px 200px}
   .cats>:nth-child(1){grid-column:span 2;grid-row:auto}
-  .feat-row{height:240px;gap:10px;overflow-x:auto;margin:0 -16px;padding:0 16px}
-  .feat-row>.cb-feat{flex:none;width:210px}
+  .feat-row{height:auto;gap:10px;overflow-x:auto;margin:0 -16px;padding:0 16px;align-items:stretch}
+  .feat-row>.cb-feat{flex:none;width:260px;flex-direction:column}
+  .feat-row .cb-feat__img{order:-1;width:100%;height:150px}
   .recs{grid-template-columns:1fr 1fr;gap:20px 10px}
   .consult{grid-template-columns:1fr;gap:32px}
   .consult__title span{padding-left:28px}

@@ -41,7 +41,7 @@ export default async function Home() {
         <div className="wrap">
           <SectionHeader className="sec-head" title="Recomendados" aside={<Button size="sm" arrow href="/catalogo">Ver todos</Button>} />
           <div className="recs">
-            {recommended.map((p, i) => <Reveal key={p.id} delay={i * 80}><ProductTile product={p} className={i === 1 ? 'pcard-tall' : undefined} /></Reveal>)}
+            {recommended.map((p, i) => <Reveal key={p.id} delay={i * 80}><ProductTile product={p} /></Reveal>)}
           </div>
         </div>
       </section>

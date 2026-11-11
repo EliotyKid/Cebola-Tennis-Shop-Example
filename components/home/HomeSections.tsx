@@ -28,7 +28,7 @@ export function WhyCebola() {
       <SectionHeader className="sec-head" title="Por que escolher a Cebola" />
       <Reveal>
         <div className="kit-rail feat-row">
-          {FEATURES.map((f, i) => <FeatureCard key={f.title} {...f} open={desktop && hovered === i} onMouseEnter={() => setHovered(i)} />)}
+          {FEATURES.map((f, i) => <FeatureCard key={f.title} {...f} open={!desktop || hovered === i} onMouseEnter={() => setHovered(i)} />)}
         </div>
       </Reveal>
     </div>

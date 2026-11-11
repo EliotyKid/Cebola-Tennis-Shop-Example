@@ -3,7 +3,7 @@ import { addLine, parseStored, resolveLines, sanitizeLines } from '@/lib/cart';
 import type { Product } from '@/lib/types';
 
 const grip = (v: string) => [{ label: 'Grip', value: v }];
-const product = { id: 'a', slug: 'a', name: 'A', brand: 'B', categoryId: 'c', price: 10, images: [], description: '', options: [] } as Product;
+const product = { id: 'a', slug: 'a', name: 'A', brand: 'B', categoryId: 'c', price: 10, images: [], description: '', options: [], inStock: true } as Product;
 
 describe('addLine', () => {
   it('sums quantity for the same options', () => {
